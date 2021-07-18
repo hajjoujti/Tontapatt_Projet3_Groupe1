@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
+    <wb-module deploy-name="TontapattEAR-1.0.0">
+        <wb-resource deploy-path="/" source-path="/target/m2e-wtp/ear-resources"/>
+        <wb-resource deploy-path="/" source-path="/src/main/application" tag="defaultRootSource"/>
+        <dependent-module archiveName="TontapattEntity-1.0.0.jar" deploy-path="/lib" handle="module:/resource/TontapattEntity/TontapattEntity">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="TontapattIDAO-1.0.0.jar" deploy-path="/lib" handle="module:/resource/TontapattIDAO/TontapattIDAO">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="TontapattDAO-1.0.0.jar" deploy-path="/" handle="module:/resource/TontapattDAO/TontapattDAO">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="mysql-connector-java-8.0.11.jar" deploy-path="/lib" handle="module:/classpath/var/M2_REPO/mysql/mysql-connector-java/8.0.11/mysql-connector-java-8.0.11.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="protobuf-java-2.6.0.jar" deploy-path="/lib" handle="module:/classpath/var/M2_REPO/com/google/protobuf/protobuf-java/2.6.0/protobuf-java-2.6.0.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="TontapattIBusiness-1.0.0.jar" deploy-path="/lib" handle="module:/resource/TontapattIBusiness/TontapattIBusiness">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="TontapattBusiness-1.0.0.jar" deploy-path="/" handle="module:/resource/TontapattBusiness/TontapattBusiness">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="TontapattWeb-1.0.0.war" deploy-path="/" handle="module:/resource/TontapattWeb/TontapattWeb">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+    </wb-module>
+</project-modules>
